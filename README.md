@@ -6,10 +6,11 @@ Modelo de Machine Learning Para Operações de Long e Short Pelo Método de Coin
 ## 
 
 # Sobre o código
-Este repositório foi desenvolvido para coletar cotações de ativos financeiros no mercado FOREX. 
-A partir das cotações de fechamento dos últimos 800 dias, serao realizados testes estatísticos para verificar se os resíduos resultantes da regressão linear entre dois ativos financeiros apresentam comportamento estacionário.
+Este repositório foi desenvolvido para realizar testes estatísticos dos últimos 800 preços de fechamento de duas divisas do mercado FOREX e validar se os resíduos gerados pela regressão linear entre os dois ativos financeiros apresentam comportamento estacionário.
 
-Havendo a presença dos padrões de dispersão esperados, o cálculo do desvio padrão irá indicar se há oportunidades de montar operações especulativa entre os dois ativos avaliados. 
+Havendo a presença dos padrões de dispersão esperados, podemos considerar que os ativos estão cointegrados. 
+
+Eventuais distorções, indicadas pelo desvio padrão podem sugerir oportunidades especulativas. 
 
 # Tecnologias utilizadas Nesse Notebook       
 <div style="display: inline_block"><br>
@@ -31,7 +32,7 @@ Havendo a presença dos padrões de dispersão esperados, o cálculo do desvio p
 
 # Para executar este código é necessário:
 - Ter as Libs Instaladas.
-- Arquivo .csv com ao 800 últimos preços de fechamento de dois ativos financeiro. Neste exemplo, utilizei as divisas CHFJPY e GBPJPY.
+- Arquivo .csv com os 800 últimos preços de fechamento de dois ativos financeiro. Neste exemplo, utilizei as divisas CHFJPY e GBPJPY.
  
 # Autor
 Diogo Ludviger Raucci
