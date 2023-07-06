@@ -6,7 +6,8 @@ Modelo de Machine Learning Para Operações de Long e Short Pelo Método de Coin
 ## 
 
 # Sobre o código
-Este repositório foi desenvolvido para coletar cotações de ativos financeiros no mercado FOREX, através do terminal de negociações META TRADER 5, realizar testes estatísticos para verificar se os resíduos resultantes da regressão linear entre dois ativos FOREX apresentam comportamento estacionário.
+Este repositório foi desenvolvido para coletar cotações de ativos financeiros no mercado FOREX. 
+A partir das cotações de fechamento dos últimos 800 dias, serao realizados testes estatísticos para verificar se os resíduos resultantes da regressão linear entre dois ativos financeiros apresentam comportamento estacionário.
 
 Havendo a presença dos padrões de dispersão esperados, o cálculo do desvio padrão irá indicar se há oportunidades de montar operações especulativa entre os dois ativos avaliados. 
 
@@ -18,7 +19,6 @@ Havendo a presença dos padrões de dispersão esperados, o cálculo do desvio p
   ##
 ## Python 3 Libs
 - Pandas
-- MetaTrade5
 - LinerRegression
 - Test ADF
 - MatPlotLib
@@ -30,10 +30,9 @@ Havendo a presença dos padrões de dispersão esperados, o cálculo do desvio p
 - Analise de Séries Temporais
 
 # Para executar este código é necessário:
-- Ter conta ativa em alguma corretora de valores que forneça sinal do mercado FOREX para o terminal de negociações 'MetaTrader 5'.
-- Ter instalado o terminal de negociações 'MetaTrader 5'.
-- Logar a conta da corretora ao terminal de negociações 'MetaTrader 5'
-
+- Ter as Libs Instaladas.
+- Arquivo .csv com ao 800 últimos preços de fechamento de dois ativos financeiro. Neste exemplo, utilizei as divisas CHFJPY e GBPJPY.
+ 
 # Autor
 Diogo Ludviger Raucci
 
