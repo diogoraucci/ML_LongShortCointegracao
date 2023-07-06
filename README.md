@@ -1,9 +1,6 @@
 # ML_LongShortCointegracao
 Modelo de Machine Learning Para Operações de Long e Short Pelo Método de Cointegração
 
-# Cotações_MT5
-Obter Cotações de Ativos, Através do Terminal de Negociações MetaTrader 5
-
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/diogoraucci/Cotacoes_MT5/blob/main/LICENSE)
 
 ## 
